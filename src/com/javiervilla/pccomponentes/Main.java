@@ -38,12 +38,38 @@ public class Main {
         System.out.println(msi.getSocket());
 
         MotherBoard gigabyte = new MotherBoard();
+
         gigabyte.setId(2);
         gigabyte.setMarca("X570");
         gigabyte.setFabricante("gigabyte");
         gigabyte.setSocket("socket AM4");
+
         System.out.println(gigabyte.getMarca());
         System.out.println(gigabyte.getFabricante());
         System.out.println(gigabyte.getSocket());
+
+        GraphicCard asus = new GraphicCard();
+
+        asus.setId(1);
+        asus.setMarca("GeForce rtx 3090");
+        asus.setFabricante("asus");
+        asus.setMemorytype("GDDR6X");
+
+        System.out.println(asus.getMarca());
+        System.out.println(asus.getFabricante());
+        System.out.println(asus.getMemorytype());
+
+        GraphicCard graphicCardamd = new GraphicCard();
+
+        graphicCardamd.setId(2);
+        graphicCardamd.setMarca("raedon rx6900");
+        graphicCardamd.setFabricante("amd");
+        graphicCardamd.setMemorytype("GDDR6");
+
+        System.out.println(amd.getMarca());
+        System.out.println(amd.getFabricante());
+        System.out.println(amd.getMemorytype());
+
+
     }
 }

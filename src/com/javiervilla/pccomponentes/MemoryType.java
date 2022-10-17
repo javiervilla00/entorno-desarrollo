@@ -1,17 +1,17 @@
 package com.javiervilla.pccomponentes;
 
-public class GraphicCard {
+public class MemoryType {
     private Integer id;
     private String marca;
     private String fabricante;
     private String memorytype;
 
-    public Integer getId() {
-        return id;
-    }
-
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public Integer getId() {
+        return id;
     }
 
     public String getMarca() {
@@ -38,4 +38,3 @@ public class GraphicCard {
         this.memorytype = memorytype;
     }
 }
-
