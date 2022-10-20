@@ -53,23 +53,61 @@ public class Main {
         asus.setId(1);
         asus.setMarca("GeForce rtx 3090");
         asus.setFabricante("asus");
-        asus.setMemorytype("GDDR6X");
+        asus.setMemoryType("GDDR6X");
 
         System.out.println(asus.getMarca());
         System.out.println(asus.getFabricante());
-        System.out.println(asus.getMemorytype());
+        System.out.println(asus.getMemoryType());
 
         GraphicCard graphicCardamd = new GraphicCard();
 
         graphicCardamd.setId(2);
         graphicCardamd.setMarca("raedon rx6900");
         graphicCardamd.setFabricante("amd");
-        graphicCardamd.setMemorytype("GDDR6");
+        graphicCardamd.setMemoryType("GDDR6");
 
-        System.out.println(amd.getMarca());
-        System.out.println(amd.getFabricante());
-        System.out.println(amd.getMemorytype());
+        System.out.println(graphicCardamd.getMarca());
+        System.out.println(graphicCardamd.getFabricante());
+        System.out.println(graphicCardamd.getMemoryType());
 
+        ram  kingston = new ram();
 
+        kingston.setId(1);
+        kingston.setMarca("FURY Beast");
+        kingston.setFabricante("kingston");
+        kingston.setMemorytype("DDR4");
+
+        System.out.println(kingston.getMarca());
+        System.out.println(kingston.getFabricante());
+        System.out.println(kingston.getMemorytype());
+
+        ram corsair = new ram();
+
+        corsair.setId(2);
+        corsair.setMarca("Vengeance LPX");
+        corsair.setFabricante("corsair");
+        corsair.setMemorytype("DDR4");
+
+        System.out.println(corsair.getMarca());
+        System.out.println(corsair.getFabricante());
+        System.out.println(corsair.getMemorytype());
+
+        ComputerCase aerocool = new ComputerCase();
+
+        aerocool.setId(1);
+        aerocool.setMarca("Thunder x3");
+        aerocool.setFabricante("aerocool");
+
+        System.out.println(aerocool.getMarca());
+        System.out.println(aerocool.getFabricante());
+
+        ComputerCase ComputerCaseCorsair = new ComputerCase();
+
+        ComputerCaseCorsair.setId(2);
+        ComputerCaseCorsair.setMarca("iCUE 5000T RGB");
+        ComputerCaseCorsair.setFabricante("corsair");
+
+        System.out.println(ComputerCaseCorsair.getMarca());
+        System.out.println(ComputerCaseCorsair.getFabricante());
     }
 }
