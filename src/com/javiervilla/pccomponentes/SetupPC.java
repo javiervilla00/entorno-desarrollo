@@ -14,5 +14,6 @@ public class SetupPC {
 
     public Procesador setProcesador(Procesador procesador) {
         this.procesador = procesador;
+        return procesador;
     }
 }

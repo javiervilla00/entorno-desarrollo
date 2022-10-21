@@ -23,8 +23,8 @@ public class Main {
         pentium.setMarca("i7");
         pentium.setFabricante("Intel");
 
-        System.out.println(amd.getMarca());
-        System.out.println(amd.getFabricante());
+        System.out.println(pentium.getMarca());
+        System.out.println(pentium.getFabricante());
 
         MotherBoard msi = new MotherBoard();
 
@@ -70,7 +70,7 @@ public class Main {
         System.out.println(graphicCardamd.getFabricante());
         System.out.println(graphicCardamd.getMemoryType());
 
-        ram  kingston = new ram();
+        Ram kingston = new Ram();
 
         kingston.setId(1);
         kingston.setMarca("FURY Beast");
@@ -81,7 +81,7 @@ public class Main {
         System.out.println(kingston.getFabricante());
         System.out.println(kingston.getMemorytype());
 
-        ram corsair = new ram();
+        Ram corsair = new Ram();
 
         corsair.setId(2);
         corsair.setMarca("Vengeance LPX");
@@ -101,13 +101,95 @@ public class Main {
         System.out.println(aerocool.getMarca());
         System.out.println(aerocool.getFabricante());
 
-        ComputerCase ComputerCaseCorsair = new ComputerCase();
+        ComputerCase computerCaseCorsair = new ComputerCase();
 
-        ComputerCaseCorsair.setId(2);
-        ComputerCaseCorsair.setMarca("iCUE 5000T RGB");
-        ComputerCaseCorsair.setFabricante("corsair");
+        computerCaseCorsair.setId(2);
+        computerCaseCorsair.setMarca("iCUE 5000T RGB");
+        computerCaseCorsair.setFabricante("corsair");
 
-        System.out.println(ComputerCaseCorsair.getMarca());
-        System.out.println(ComputerCaseCorsair.getFabricante());
+        System.out.println(computerCaseCorsair.getMarca());
+        System.out.println(computerCaseCorsair.getFabricante());
+
+        CpuFan coolerMaster = new CpuFan();
+
+        coolerMaster.setId(1);
+        coolerMaster.setMarca("Hyper 212 RGB");
+        coolerMaster.setFabricante("Cooler Master");
+
+        System.out.println(coolerMaster.getMarca());
+        System.out.println(coolerMaster.getFabricante());
+
+        Hdd seagate = new Hdd();
+
+        seagate.setId(1);
+        seagate.setMarca("Barracuda");
+        seagate.setFabricante("Seagate");
+
+        System.out.println(seagate.getMarca());
+        System.out.println(seagate.getFabricante());
+
+        PowerSupply tempest = new PowerSupply();
+
+        tempest.setId(1);
+        tempest.setMarca("PSU");
+        tempest.setFabricante("Tempest");
+
+        System.out.println(tempest.getMarca());
+        System.out.println(tempest.getFabricante());
+
+        SoundCard create = new SoundCard();
+
+        create.setId(1);
+        create.setMarca("Blaster Audigy");
+        create.setFabricante("Create");
+
+        System.out.println(create.getMarca());
+        System.out.println(create.getFabricante());
+
+        DvdRecorder dvdAsus = new DvdRecorder();
+
+        dvdAsus.setId(1);
+        dvdAsus.setMarca("SDRW-08D2S Lite");
+        dvdAsus.setFabricante("Asus");
+
+        System.out.println(dvdAsus.getMarca());
+        System.out.println(dvdAsus.getFabricante());
+
+        Display samsung = new Display();
+
+        samsung.setId(1);
+        samsung.setMarca("Odyssey G3 G30A");
+        samsung.setFabricante("Samsung");
+
+        System.out.println(samsung.getMarca());
+        System.out.println(samsung.getFabricante());
+
+        Keyboard logitech = new Keyboard();
+
+        logitech.setId(1);
+        logitech.setMarca("MK270");
+        logitech.setFabricante("Logitech");
+
+        System.out.println(logitech.getMarca());
+        System.out.println(logitech.getFabricante());
+
+        Mouse mouseMsi = new Mouse();
+
+        mouseMsi.setId(1);
+        mouseMsi.setMarca("Clutch gm08");
+        mouseMsi.setFabricante("MSI");
+
+        System.out.println(mouseMsi.getMarca());
+        System.out.println(mouseMsi.getFabricante());
+
+        Speaker woxter = new Speaker();
+
+        woxter.setId(1);
+        woxter.setMarca("Big Bass 500R");
+        woxter.setFabricante("Woxter");
+
+        System.out.println(woxter.getMarca());
+        System.out.println(woxter.getFabricante());
+
     }
 }

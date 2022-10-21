@@ -1,18 +1,16 @@
 package com.javiervilla.pccomponentes;
 
-public class ram {
-
+public class DvdRecorder {
     private Integer id;
     private String marca;
     private String fabricante;
-    private String memorytype;
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public Integer getId() {
         return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getMarca() {
@@ -29,13 +27,5 @@ public class ram {
 
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
-    }
-
-    public String getMemorytype() {
-        return memorytype;
-    }
-
-    public void setMemorytype(String memorytype) {
-        this.memorytype = memorytype;
     }
 }
